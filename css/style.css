@@ -229,19 +229,19 @@ Modal
   place-items: center;
   position: relative;
 }
+.modal-container h3{
+  font-family: var(--ff-secondary);
+}
 .close-btn {
   position: absolute;
   top: 1rem;
   right: 1rem;
-  font-size: 2rem;
   background: transparent;
   border-color: transparent;
-  color: var(--clr-red-dark);
   cursor: pointer;
   outline: none;
   transition: var(--transition);
 }
 .close-btn:hover {
-  color: var(--clr-red-light);
   transform: scale(1.3);
 }
