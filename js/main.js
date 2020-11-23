@@ -1,12 +1,12 @@
 const modalBtn = document.querySelector('.modal-btn');
-const overlay = document.querySelector('.modal-overlay');
+const modal = document.querySelector('.modal-overlay');
 const closeBtn = document.querySelector('.close-btn');
 
 
 modalBtn.addEventListener('click', function () {
-  overlay.classList.toggle('open-modal');
+  modal.classList.toggle('open-modal');
 });
 closeBtn.addEventListener('click', function () {
-  overlay.classList.remove('open-modal');
+  modal.classList.remove('open-modal');
 });
 
