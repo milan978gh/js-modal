@@ -242,6 +242,3 @@ Modal
 	outline: none;
 	transition: var(--transition);
 }
-.close-btn:hover {
-	transform: scale(1.3);
-}
